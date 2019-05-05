@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Popov41PILab01</string>
+    <string name="button1">Get description</string>
+    <string-array name="professions">
+        <item>Java Developer</item>
+        <item>Android Developer</item>
+        <item>Fullstack Developer</item>
+        <item>Frontend Developer</item>
+        <item>Backend Developer</item>
+    </string-array>
+    <string-array name="professions_descriptions">
+        <item>Java Developer Description</item>
+        <item>Android Developer Description</item>
+        <item>Fullstack Developer Description</item>
+        <item>Frontend Developer Description</item>
+        <item>Backend Developer Description</item>
+    </string-array>
+</resources>
