@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Popov41PiLab03</string>
+
+    <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+    <string name="Reset">Reset</string>
+    <string name="timerStartText">0.00.00</string>
+</resources>
