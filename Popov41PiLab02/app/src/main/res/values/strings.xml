@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Popov41PiLab02</string>
+    <string name="hint">Enter the message here</string>
+    <string name="buttonText">SEND</string>
+</resources>
