@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if(savedInstanceState != null){
+            seconds = savedInstanceState.getInt("seconds");
+            isRunning = savedInstanceState.getBoolean("isRunning");
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -61,5 +65,12 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         h2.postDelayed(run, 0);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("seconds", seconds);
+        outState.putBoolean("isRunning", isRunning);
     }
 }
