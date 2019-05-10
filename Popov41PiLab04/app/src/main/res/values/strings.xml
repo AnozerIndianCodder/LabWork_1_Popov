@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Popov41PiLab04</string>
+
+    <!--feedback-->
+    <string name="sendButtonDescription">sendButtonDescription</string>
+    <string name="logoDescription">logoDescription</string>
+
+    <string name="qa">QA</string>
+    <string name="devOps">DevOps</string>
+
+    <string name="specialisation">Яку спеціалізацію ти обираєш, %s?</string>
+    <string name="addToCourse">Що б ти хотів включити в курс QA?</string>>
+    <string name="add1">Лекції</string>>
+    <string name="add2">Практичні</string>>
+    <string name="add3">Лабораторні</string>
+    <string name="choose">Обери, який з предметів тобі найцікавіший</string>
+
+    <string-array name="subjects">
+        <item>Selenium Web Driver Framework</item>
+    </string-array>
+
+    <!--login-->
+
+    <string name="hello">Вітаю! Обери предмети, які ті будеш вивчати на чевертому курсі.</string>
+
+    <string name="name">Ім'я</string>
+    <string name="surname">Призвище</string>
+    <string name="chooseButton">Обери предмети</string>
+
+
+</resources>
