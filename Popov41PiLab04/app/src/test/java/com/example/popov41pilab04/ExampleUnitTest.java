@@ -1,4 +1,4 @@
-package com.example.popov41pilab03;
+package com.example.popov41pilab04;
 
 import org.junit.Test;
 

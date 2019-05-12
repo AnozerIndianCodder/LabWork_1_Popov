@@ -1,10 +1,11 @@
-package com.example.popov41pilab03;
+package com.example.popov41pilab04;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity { //loginActivity
     private EditText nameField;
@@ -22,14 +23,17 @@ public class MainActivity extends AppCompatActivity { //loginActivity
     {
         String name = nameField.getText().toString();
         String surname = surnameField.getText().toString();
-        if(name.length() == 1) {
+        if(name.length() <= 1) {
             Toast.makeText(this, name, Toast.LENGTH_SHORT).show();
             return;
         }
-        if(surname.length() == 1) {
+        if(surname.length() <= 1) {
             Toast.makeText(this, surname, Toast.LENGTH_SHORT).show();
             return;
         }
-        Intent intent = new 
+        Intent intent = new Intent(this, FeedbackActivity.class);
+        intent.putExtra("name", name);
+        intent.putExtra("surname", surname);
+        startActivity(intent);
     }
 }
